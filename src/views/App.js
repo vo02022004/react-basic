@@ -1,8 +1,10 @@
 import logo from './logo.svg';
 import './App.scss';
-import Mycomponer from './example/Mycomponer';  
+import Mycomponer from './example/Mycomponer';
+import ListTodo from './todos/ListTodo';
+// import AddComponent from './example/AddComponent';
 
- const App= () => {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -10,17 +12,10 @@ import Mycomponer from './example/Mycomponer';
         <p>
           Hello world with React.js (Hoi Dan IT)
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Mycomponer>
-          
-        </Mycomponer>
+        <ListTodo></ListTodo>
+        {/* <Mycomponer>
+
+        </Mycomponer> */}
       </header>
     </div>
   );
