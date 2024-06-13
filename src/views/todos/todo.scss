@@ -1,0 +1,19 @@
+
+.list-todo-container{
+    .add-todo{
+        margin: 20px auto;
+        
+    }
+    .list-todo-content {
+        width: 400px;
+        margin: 0 auto;
+        // border: 1px solid red;
+        // background-color: burlywood;
+        height: auto;
+        // text-align: center;
+        .todo-child{
+            border-bottom: 1px solid white;
+            margin: 20px auto;
+        }
+    }
+}
